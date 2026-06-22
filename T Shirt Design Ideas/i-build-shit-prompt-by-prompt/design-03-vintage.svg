@@ -1,0 +1,24 @@
+<svg viewBox="0 0 500 550" xmlns="http://www.w3.org/2000/svg">
+  <!-- T-shirt silhouette - washed navy -->
+  <path d="M160,55 L60,110 L85,175 L145,150 L145,470 L355,470 L355,150 L415,175 L440,110 L340,55 Q300,25 250,40 Q200,25 160,55 Z"
+        fill="#1a2744" stroke="#2a3a60" stroke-width="2"/>
+  <!-- Vintage circle badge -->
+  <circle cx="250" cy="265" r="82" fill="none" stroke="#c8a96e" stroke-width="2.5" stroke-dasharray="4,3"/>
+  <circle cx="250" cy="265" r="74" fill="none" stroke="#c8a96e" stroke-width="1"/>
+  <!-- Arc top text -->
+  <path id="topArc" d="M 185,240 A 65,65 0 0,1 315,240" fill="none"/>
+  <text font-size="10" fill="#c8a96e" font-family="Arial, sans-serif" letter-spacing="3" font-weight="700">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">PROMPT ENGINEER EST. 2023</textPath>
+  </text>
+  <!-- Center icon: lightning bolt -->
+  <polygon points="258,210 238,258 252,258 242,310 268,255 252,255" fill="#c8a96e"/>
+  <!-- Main text -->
+  <text x="250" y="292" font-size="14" fill="#f0e6cc" text-anchor="middle" font-family="Arial Black, sans-serif" letter-spacing="2">I BUILD SHIT</text>
+  <!-- Arc bottom text -->
+  <path id="botArc" d="M 182,290 A 68,68 0 0,0 318,290" fill="none"/>
+  <text font-size="9" fill="#c8a96e" font-family="Arial, sans-serif" letter-spacing="2">
+    <textPath href="#botArc" startOffset="50%" text-anchor="middle">SHIT PROMPT BY PROMPT</textPath>
+  </text>
+  <!-- Label -->
+  <text x="250" y="510" font-size="10" fill="#4a5a80" text-anchor="middle" font-family="Arial, sans-serif">Design 03 — Vintage Badge</text>
+</svg>

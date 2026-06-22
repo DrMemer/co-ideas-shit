@@ -1,0 +1,29 @@
+<svg viewBox="0 0 500 550" xmlns="http://www.w3.org/2000/svg">
+  <!-- T-shirt silhouette - black -->
+  <path d="M160,55 L60,110 L85,175 L145,150 L145,470 L355,470 L355,150 L415,175 L440,110 L340,55 Q300,25 250,40 Q200,25 160,55 Z"
+        fill="#080808" stroke="#222" stroke-width="2"/>
+  <!-- Glitch layers - cyan offset -->
+  <text x="253" y="248" font-size="32" fill="#00fff0" opacity="0.5" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900">I BUILD</text>
+  <!-- Red offset -->
+  <text x="247" y="251" font-size="32" fill="#ff003c" opacity="0.5" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900">I BUILD</text>
+  <!-- Main white layer -->
+  <text x="250" y="250" font-size="32" fill="#ffffff" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900">I BUILD</text>
+
+  <!-- Glitch bars -->
+  <rect x="165" y="255" width="80" height="6" fill="#00fff0" opacity="0.4"/>
+  <rect x="255" y="260" width="60" height="4" fill="#ff003c" opacity="0.4"/>
+
+  <!-- SHIT with glitch -->
+  <text x="253" y="293" font-size="42" fill="#00fff0" opacity="0.5" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900">SHIT.</text>
+  <text x="247" y="296" font-size="42" fill="#ff003c" opacity="0.5" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900">SHIT.</text>
+  <text x="250" y="295" font-size="42" fill="#ffffff" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900">SHIT.</text>
+
+  <!-- Subtitle -->
+  <text x="250" y="322" font-size="9" fill="#555" text-anchor="middle" font-family="monospace" letter-spacing="4">PROMPT_BY_PROMPT</text>
+
+  <!-- Glitch scan line -->
+  <rect x="145" y="298" width="210" height="2" fill="#00fff0" opacity="0.15"/>
+
+  <!-- Label -->
+  <text x="250" y="510" font-size="10" fill="#333" text-anchor="middle" font-family="Arial, sans-serif">Design 04 — Glitch</text>
+</svg>

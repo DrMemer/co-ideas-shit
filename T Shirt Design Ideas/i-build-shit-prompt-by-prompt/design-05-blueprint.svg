@@ -1,0 +1,56 @@
+<svg viewBox="0 0 500 550" xmlns="http://www.w3.org/2000/svg">
+  <!-- T-shirt silhouette - blueprint blue -->
+  <path d="M160,55 L60,110 L85,175 L145,150 L145,470 L355,470 L355,150 L415,175 L440,110 L340,55 Q300,25 250,40 Q200,25 160,55 Z"
+        fill="#0a2a6e" stroke="#1a4aae" stroke-width="2"/>
+  <!-- Blueprint grid lines -->
+  <g stroke="#1a4aae" stroke-width="0.5" opacity="0.5">
+    <line x1="145" y1="170" x2="355" y2="170"/>
+    <line x1="145" y1="190" x2="355" y2="190"/>
+    <line x1="145" y1="210" x2="355" y2="210"/>
+    <line x1="145" y1="230" x2="355" y2="230"/>
+    <line x1="145" y1="250" x2="355" y2="250"/>
+    <line x1="145" y1="270" x2="355" y2="270"/>
+    <line x1="145" y1="290" x2="355" y2="290"/>
+    <line x1="145" y1="310" x2="355" y2="310"/>
+    <line x1="145" y1="330" x2="355" y2="330"/>
+    <line x1="165" y1="155" x2="165" y2="460"/>
+    <line x1="200" y1="155" x2="200" y2="460"/>
+    <line x1="235" y1="155" x2="235" y2="460"/>
+    <line x1="270" y1="155" x2="270" y2="460"/>
+    <line x1="305" y1="155" x2="305" y2="460"/>
+    <line x1="340" y1="155" x2="340" y2="460"/>
+  </g>
+  <!-- Blueprint box -->
+  <rect x="168" y="178" width="164" height="140" fill="none" stroke="#4a8fff" stroke-width="1.5"/>
+  <!-- Corner marks -->
+  <g stroke="#4a8fff" stroke-width="1.5">
+    <line x1="168" y1="188" x2="168" y2="178"/><line x1="168" y1="178" x2="178" y2="178"/>
+    <line x1="322" y1="188" x2="322" y2="178"/><line x1="322" y1="178" x2="312" y2="178"/>
+    <line x1="168" y1="308" x2="168" y2="318"/><line x1="168" y1="318" x2="178" y2="318"/>
+    <line x1="322" y1="308" x2="322" y2="318"/><line x1="322" y1="318" x2="312" y2="318"/>
+  </g>
+  <!-- Dimension arrows -->
+  <line x1="155" y1="178" x2="155" y2="318" stroke="#4a8fff" stroke-width="1" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <defs>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#4a8fff"/>
+    </marker>
+  </defs>
+  <text x="148" y="252" font-size="7" fill="#4a8fff" text-anchor="middle" transform="rotate(-90,148,252)">140px</text>
+  <!-- Title block text -->
+  <text x="250" y="208" font-size="11" fill="#ffffff" text-anchor="middle" font-family="monospace" font-weight="700" letter-spacing="2">I BUILD SHIT</text>
+  <line x1="180" y1="214" x2="320" y2="214" stroke="#4a8fff" stroke-width="0.8"/>
+  <text x="250" y="228" font-size="8" fill="#4a8fff" text-anchor="middle" font-family="monospace">SHIT PROMPT BY PROMPT</text>
+  <!-- Schematic: prompt box -->
+  <rect x="192" y="240" width="116" height="28" rx="3" fill="none" stroke="#4a8fff" stroke-width="1"/>
+  <text x="250" y="259" font-size="9" fill="#a0c4ff" text-anchor="middle" font-family="monospace">&gt; new shit.exe</text>
+  <!-- Arrow down -->
+  <line x1="250" y1="268" x2="250" y2="284" stroke="#4a8fff" stroke-width="1" marker-end="url(#arr)"/>
+  <!-- Output box -->
+  <rect x="200" y="285" width="100" height="22" rx="3" fill="#0d3a8e" stroke="#4a8fff" stroke-width="1"/>
+  <text x="250" y="300" font-size="8" fill="#30d158" text-anchor="middle" font-family="monospace">✓ shipped</text>
+  <!-- Revision stamp -->
+  <text x="318" y="315" font-size="7" fill="#4a8fff" text-anchor="end" font-family="monospace">REV.∞</text>
+  <!-- Label -->
+  <text x="250" y="510" font-size="10" fill="#1a4aae" text-anchor="middle" font-family="Arial, sans-serif">Design 05 — Blueprint</text>
+</svg>

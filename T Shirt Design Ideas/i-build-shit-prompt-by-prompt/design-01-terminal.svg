@@ -1,0 +1,22 @@
+<svg viewBox="0 0 500 550" xmlns="http://www.w3.org/2000/svg" font-family="monospace">
+  <!-- T-shirt silhouette - black tee -->
+  <path d="M160,55 L60,110 L85,175 L145,150 L145,470 L355,470 L355,150 L415,175 L440,110 L340,55 Q300,25 250,40 Q200,25 160,55 Z"
+        fill="#111111" stroke="#333" stroke-width="2"/>
+  <!-- Design area: terminal window -->
+  <rect x="165" y="165" width="170" height="110" rx="8" fill="#0d1117" stroke="#30d158" stroke-width="1.5"/>
+  <!-- Terminal header dots -->
+  <circle cx="182" cy="180" r="5" fill="#ff5f57"/>
+  <circle cx="198" cy="180" r="5" fill="#febc2e"/>
+  <circle cx="214" cy="180" r="5" fill="#28c840"/>
+  <!-- Terminal text -->
+  <text x="175" y="205" font-size="9" fill="#30d158">$ ./build.sh</text>
+  <text x="175" y="220" font-size="9" fill="#8b949e">compiling...</text>
+  <text x="175" y="235" font-size="9" fill="#30d158">✓ shit deployed</text>
+  <text x="175" y="250" font-size="9" fill="#58a6ff">→ next prompt?</text>
+  <text x="175" y="265" font-size="9" fill="#30d158">█</text>
+  <!-- Main text below -->
+  <text x="250" y="310" font-size="13" fill="#30d158" text-anchor="middle" letter-spacing="1">I BUILD SHIT</text>
+  <text x="250" y="328" font-size="9" fill="#8b949e" text-anchor="middle">shit Prompt by Prompt</text>
+  <!-- Label -->
+  <text x="250" y="510" font-size="10" fill="#555" text-anchor="middle">Design 01 — Terminal</text>
+</svg>

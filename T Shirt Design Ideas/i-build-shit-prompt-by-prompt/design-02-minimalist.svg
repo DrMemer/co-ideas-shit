@@ -1,0 +1,14 @@
+<svg viewBox="0 0 500 550" xmlns="http://www.w3.org/2000/svg">
+  <!-- T-shirt silhouette - white tee -->
+  <path d="M160,55 L60,110 L85,175 L145,150 L145,470 L355,470 L355,150 L415,175 L440,110 L340,55 Q300,25 250,40 Q200,25 160,55 Z"
+        fill="#f5f5f0" stroke="#ddd" stroke-width="2"/>
+  <!-- Minimal bold type -->
+  <text x="250" y="240" font-size="28" fill="#111" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900">I BUILD</text>
+  <text x="250" y="278" font-size="28" fill="#111" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900">SHIT.</text>
+  <!-- Thin rule -->
+  <line x1="185" y1="292" x2="315" y2="292" stroke="#111" stroke-width="1"/>
+  <!-- Subtitle -->
+  <text x="250" y="312" font-size="10" fill="#444" text-anchor="middle" font-family="Arial, sans-serif" letter-spacing="3">PROMPT BY PROMPT</text>
+  <!-- Label -->
+  <text x="250" y="510" font-size="10" fill="#aaa" text-anchor="middle" font-family="Arial, sans-serif">Design 02 — Minimalist</text>
+</svg>
