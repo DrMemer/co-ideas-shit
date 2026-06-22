@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Design 14 — Airport Departures</title>
+<link href="https://fonts.googleapis.com/css2?family=VT323&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+body{margin:0;display:flex;align-items:center;justify-content:center;min-height:100vh;background:#0a0a0a;font-family:'VT323',monospace}
+.board{background:#111;padding:22px;max-width:560px;width:100%;border:1px solid #222}
+.header{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid #2a2a2a;padding-bottom:12px;margin-bottom:14px}
+.airline{font-size:22px;color:#ffcc00;letter-spacing:3px}
+.label{font-size:18px;color:#444;letter-spacing:1px}
+.cols{display:grid;grid-template-columns:2fr 1.4fr 1.4fr .8fr;gap:10px;font-size:15px;color:#444;margin-bottom:8px;letter-spacing:1px}
+.row{display:grid;grid-template-columns:2fr 1.4fr 1.4fr .8fr;gap:10px;font-size:20px;color:#fff;padding:6px 0;border-bottom:.5px solid #1a1a1a}
+.shipped{color:#30d158}
+.delayed{color:#ffcc00}
+.cancelled{color:#ff4444}
+.boarding{color:#ff8c00}
+.footer{border-top:1px solid #222;margin-top:14px;padding-top:10px;font-size:18px;color:#333;text-align:center;letter-spacing:2px}
+</style></head><body>
+<div class="board">
+  <div class="header">
+    <div class="airline">I BUILD SHIT AIRLINES</div>
+    <div class="label">DEPARTURES</div>
+  </div>
+  <div class="cols"><span>FLIGHT</span><span>DEST</span><span>STATUS</span><span>GATE</span></div>
+  <div class="row"><span>SHIT_BUILD_01</span><span>PROD</span><span class="shipped">SHIPPED</span><span>P1</span></div>
+  <div class="row"><span>FEATURE_V2</span><span>STAGING</span><span class="delayed">DELAYED</span><span>TBD</span></div>
+  <div class="row"><span>DOCUMENTATION</span><span>PROD</span><span class="cancelled">CANCELLED</span><span>--</span></div>
+  <div class="row"><span>SHIT_BUILD_02</span><span>PROD</span><span class="boarding">BOARDING</span><span>P1</span></div>
+  <div class="row"><span>TESTS</span><span>ANYWHERE</span><span class="cancelled">CANCELLED</span><span>--</span></div>
+  <div class="footer">PROMPT BY PROMPT &nbsp;·&nbsp; ALL GATES OPEN</div>
+</div>
+</body></html>
